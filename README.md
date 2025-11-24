@@ -1,4 +1,4 @@
-# Flutter Banking UI
+# Flutter UI
 
 A premium, clean, and modern mobile banking UI implementation in Flutter. This project demonstrates a high-quality user interface with smooth animations, glassmorphism effects, and a polished design system.
 
@@ -8,18 +8,14 @@ The application features four main screens, each designed with a focus on user e
 
 | **Home Dashboard** | **Spending Reports** |
 |:---:|:---:|
-| ![Home Screen](screenshots/home.png) | ![Reports Screen](screenshots/reports.png) |
+| ![Home Screen](ui_screenshots/page1.png) | ![Reports Screen](ui_screenshots/page2.png) |
 | *Overview of balance, quick actions, and recent transactions.* | *Detailed breakdown of monthly expenses with visual indicators.* |
 
 | **My Cards** | **User Profile** |
 |:---:|:---:|
-| ![Cards Screen](screenshots/cards.png) | ![Profile Screen](screenshots/profile.png) |
+| ![Cards Screen](ui_  screenshots/page3.png) | ![Profile Screen](ui_screenshots/page4.png) |
 | *Card management, limits, and linked account details.* | *Personalized user profile with bio and account settings.* |
 
-> **📸 How to add screenshots:**
-> 1. Take screenshots of your app running on a simulator or device.
-> 2. Name them `home.png`, `reports.png`, `cards.png`, and `profile.png`.
-> 3. Place them in the `screenshots` folder in the root of this project.
 
 ## ✨ Key Features
 

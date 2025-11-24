@@ -1,6 +1,6 @@
 # Flutter UI
 
-A premium, clean, and modern mobile banking UI implementation in Flutter. This project demonstrates a high-quality user interface with smooth animations, custom widgets, and a polished design system.
+A premium, clean, and modern UI implementation in Flutter. This project demonstrates a high-quality user interface with smooth animations, custom widgets, and a polished design system.
 
 ## 📱 UI Showcase
 
@@ -116,14 +116,6 @@ lib/
 - ✅ Modular widget architecture
 - ✅ Four main pages (Home, Reports, Cards, Profile)
 
-## 🎨 Color Palette
-
-- **Primary Purple:** `#4A37BE`
-- **Light Purple:** `#5F4AE3`
-- **Background Purple:** `#EEF2FF`
-- **White:** `#FFFFFF`
-- **Dark Text:** `#1A1F36`
-- **Grey Text:** `Colors.grey`
 
 ## � Notes
 
@@ -142,6 +134,3 @@ lib/
 
 This project is open source and available under the [MIT License](LICENSE).
 
----
-
-Made with ❤️ using Flutter

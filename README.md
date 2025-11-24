@@ -16,6 +16,14 @@ The application features four main screens, each designed with a focus on user e
 | ![Cards Screen](ui_screenshot/page3.png) | ![Profile Screen](ui_screenshot/page4.png) |
 | *Card management, limits, and linked accounts* | *Personalized user profile with bio and settings* |
 
+## 📥 Quick Test (APK Download)
+
+Want to test the app directly on your Android device? Download the pre-built APK:
+
+📦 **[Download APK](ui_screenshot/app-release.apk)** - Ready to install and test!
+
+> **Note:** Make sure to enable "Install from Unknown Sources" in your Android settings before installing the APK.
+
 ## ✨ Key Features
 
 ### **Design & UI**

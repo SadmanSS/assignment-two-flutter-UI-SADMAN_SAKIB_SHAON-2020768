@@ -8,12 +8,12 @@ The application features four main screens, each designed with a focus on user e
 
 | **Home Dashboard** | **Spending Reports** |
 |:---:|:---:|
-| ![Home Screen](ui_screenshots/page1.png) | ![Reports Screen](ui_screenshots/page2.png) |
+| ![Home Screen](ui_screenshot/page1.png) | ![Reports Screen](ui_screenshot/page2.png) |
 | *Overview of balance, quick actions, and recent transactions.* | *Detailed breakdown of monthly expenses with visual indicators.* |
 
 | **My Cards** | **User Profile** |
 |:---:|:---:|
-| ![Cards Screen](ui_  screenshots/page3.png) | ![Profile Screen](ui_screenshots/page4.png) |
+| ![Cards Screen](ui_screenshot/page3.png) | ![Profile Screen](ui_screenshot/page4.png) |
 | *Card management, limits, and linked account details.* | *Personalized user profile with bio and account settings.* |
 
 

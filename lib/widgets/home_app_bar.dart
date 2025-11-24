@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
 class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   const HomeAppBar({super.key});
@@ -53,8 +54,9 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
               child: IconButton(
                 onPressed: () {},
                 icon: const Icon(
-                  Icons.notifications_outlined,
+                  CupertinoIcons.bell,
                   color: Color(0xFF1A1F36),
+                  size: 22,
                 ),
               ),
             ),

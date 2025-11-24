@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
 class BalanceCard extends StatelessWidget {
   const BalanceCard({super.key});
@@ -38,7 +39,7 @@ class BalanceCard extends StatelessWidget {
               IconButton(
                 onPressed: () {},
                 icon: const Icon(
-                  Icons.account_balance_wallet_outlined,
+                  CupertinoIcons.creditcard,
                   color: Colors.white,
                 ),
                 iconSize: 24,
@@ -69,21 +70,22 @@ class BalanceCard extends StatelessWidget {
           const SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              const Text(
+            children: const [
+              Text(
                 'Savings: \$5,500',
                 style: TextStyle(color: Colors.white70, fontSize: 14),
               ),
               Row(
-                children: const [
+                children: [
                   Text(
                     'Last 30 days: +\$300',
                     style: TextStyle(color: Colors.white70, fontSize: 14),
                   ),
+                  SizedBox(width: 4),
                   Icon(
-                    Icons.arrow_forward_ios,
+                    CupertinoIcons.arrow_right,
                     color: Colors.white70,
-                    size: 12,
+                    size: 14,
                   ),
                 ],
               ),

@@ -18,9 +18,9 @@ class HomeWithTabs extends StatelessWidget {
             children: [
               const BalanceCard(),
               const SizedBox(height: 24),
-              const HomeActionButtons(),
+              HomeActionButtons(),
               const SizedBox(height: 30),
-              const RecentTransactions(),
+              RecentTransactions(),
             ],
           ),
         ),

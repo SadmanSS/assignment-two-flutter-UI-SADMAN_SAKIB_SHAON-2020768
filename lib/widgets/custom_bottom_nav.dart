@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
 class CustomBottomNav extends StatelessWidget {
   final int currentIndex;
@@ -33,20 +34,25 @@ class CustomBottomNav extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            _buildNavItem(0, Icons.home_filled, Icons.home_outlined, "Home"),
+            _buildNavItem(0, CupertinoIcons.home, CupertinoIcons.home, "Home"),
             _buildNavItem(
               1,
-              Icons.bar_chart,
-              Icons.bar_chart_outlined,
+              CupertinoIcons.chart_bar,
+              CupertinoIcons.chart_bar,
               "Reports",
             ),
             _buildNavItem(
               2,
-              Icons.credit_card,
-              Icons.credit_card_outlined,
+              CupertinoIcons.creditcard,
+              CupertinoIcons.creditcard,
               "Cards",
             ),
-            _buildNavItem(3, Icons.person, Icons.person_outline, "Profile"),
+            _buildNavItem(
+              3,
+              CupertinoIcons.person,
+              CupertinoIcons.person,
+              "Profile",
+            ),
           ],
         ),
       ),

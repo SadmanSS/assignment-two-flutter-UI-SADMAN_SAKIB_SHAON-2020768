@@ -79,12 +79,12 @@ lib/
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/flutter-ui-app.git
+    git clone https://github.com/SadmanSS/assignment-two-flutter-UI-SADMAN_SAKIB_SHAON-2020768.git
     ```
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd "UI App"
+    cd assignment-two-flutter-UI-SADMAN_SAKIB_SHAON-2020768
     ```
 
 3.  **Install dependencies:**

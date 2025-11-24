@@ -55,24 +55,29 @@ Want to test the app directly on your Android device? Download the pre-built APK
 
 ```
 lib/
-├── main.dart                 # App entry point
+├── main.dart                          # App entry point
 ├── screens/
-│   ├── main_screen.dart     # Main container with navigation
-│   ├── page1.dart           # Home dashboard
-│   ├── page2.dart           # Reports page
-│   ├── page3.dart           # Cards page
-│   └── page4.dart           # Profile page
-├── widgets/
-│   ├── home_app_bar.dart           # Custom app bar
-│   ├── custom_bottom_nav.dart      # Custom bottom navigation
-│   ├── balance_card.dart           # Balance display card
-│   ├── action_button.dart          # Action button widget
-│   ├── home_action_buttons.dart    # Home action buttons row
-│   ├── recent_transactions.dart    # Transaction list
-│   ├── transaction_item.dart       # Single transaction item
-│   └── ...                         # Other reusable widgets
-└── theme/
-    └── app_theme.dart        # App theme configuration
+│   ├── main_screen.dart              # Main container with bottom navigation
+│   ├── page1.dart                    # Home dashboard (HomeWithTabs)
+│   ├── page2.dart                    # Reports page (ReportsPage)
+│   ├── page3.dart                    # Cards page (CardsPage)
+│   └── page4.dart                    # Profile page (ProfilePage)
+└── widgets/
+    ├── home_app_bar.dart             # Custom app bar with profile
+    ├── custom_bottom_nav.dart        # Custom bottom navigation bar
+    ├── balance_card.dart             # Balance display card with gradient
+    ├── action_button.dart            # Individual action button
+    ├── home_action_buttons.dart      # Home action buttons row
+    ├── recent_transactions.dart      # Recent transactions list
+    ├── transaction_item.dart         # Single transaction item widget
+    ├── credit_card.dart              # Credit card display widget
+    ├── card_action_button.dart       # Card action button
+    ├── card_action_row.dart          # Row of card action buttons
+    ├── linked_account_item.dart      # Linked account item widget
+    ├── info_card.dart                # Info card widget
+    ├── spending_summary_card.dart    # Spending summary card for reports
+    ├── spending_breakdown_item.dart  # Spending breakdown item
+    └── bio_card.dart                 # Bio card for profile page
 ```
 
 ## 🚀 Getting Started
